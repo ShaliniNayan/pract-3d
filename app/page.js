@@ -2,6 +2,13 @@ import Image from 'next/image';
 
 //localhost:3000/
 
+// Data Fetching
+
+// 1. Server Side Rendering (SSR)
+// 2. Static Site Generation (SSG)
+// 3. Client Side Rendering (CSR)
+// 4. Incremental Static Regeneration (ISR)
+
 export default function Home() {
   return (
     <main className='flex min-h-screen flex-col items-center justify-between p-24'>
