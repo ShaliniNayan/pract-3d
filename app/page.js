@@ -9,8 +9,6 @@ import Image from 'next/image';
 // 3. Client Side Rendering (CSR)
 // 4. Incremental Static Regeneration (ISR)
 
-// Project Structure hold
-
 export default function Home() {
   return (
     <main className='flex min-h-screen flex-col items-center justify-between p-24'>
