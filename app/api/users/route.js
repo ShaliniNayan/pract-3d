@@ -7,3 +7,7 @@
 //5. **DELETE** : Removes a specific resource from the server.
 //6. **HEAD** : Retrieves the headers that would be returned if the HEAD request's URL was instead requested with the GET method.
 //6. **OPTIONS** : Retrieves the communication options for the specified resource.
+
+export async function GET(req, res) {
+  return new Response('Hello, Next.js');
+}
