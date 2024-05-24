@@ -26,6 +26,15 @@ const Navbar = () => {
             <span className='sm:block hidden'>| Full Stack Web Developer</span>
           </p>
         </Link>
+        <ul className='list-none hidden sm:flex flex-rowgap-10'>
+          {navLinks.map((link) => (
+            <li>
+              <link>
+                <a></a>
+              </link>
+            </li>
+          ))}
+        </ul>
       </div>
     </nav>
   );
