@@ -43,7 +43,7 @@ const Navbar = () => {
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
-            src={menu}
+            src={toggle ? close : menu}
             alt='menu'
             className='w-[28px] h-[28px] object-contain cursor-pointer'
             onClick={() => setToggle(!toggle)}
