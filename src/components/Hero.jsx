@@ -17,6 +17,13 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white `}>
             Hi, I'm <span className='text-[#915eff]'>Shalini Nayan</span>
           </h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            Passionate Full-Stack Software Engineer skilled in React, Ruby on
+            Rails, and writing reusable code for efficient, user-friendly
+            systems. Led a team to complete a 3-week project in half the time
+            with a 99% acceptance rate, showcasing exceptional leadership and
+            commitment to quality results.
+          </p>
         </div>
       </div>
     </section>
