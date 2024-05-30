@@ -11,7 +11,7 @@ const Computers = () => {
     <mesh>
       <hemisphereLight intensity={0.15} groundColor='black' />
       <pointLight intensity={1} />
-      <primitive onject={computer.scene} />
+      <primitive object={computer.scene} />
     </mesh>
   );
 };
