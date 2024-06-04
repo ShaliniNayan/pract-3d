@@ -21,10 +21,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Passionate Full-Stack Software Engineer skilled in React, Ruby on
             Rails, and writing reusable code for efficient, user-friendly
-            systems. <br className='sm:block hidden' />
-            Led a team to complete a 3-week project in half the time with a 99%
-            acceptance rate, showcasing exceptional leadership and commitment to
-            quality results.
+            systems.
           </p>
         </div>
       </div>
