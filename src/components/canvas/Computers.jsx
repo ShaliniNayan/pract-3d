@@ -18,8 +18,8 @@ const Computers = () => {
 
 const ComputersCanvas = () => {
   return (
-    <canvas
-      frameLoop='demand'
+    <Canvas
+      frameloop='demand'
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
@@ -34,8 +34,8 @@ const ComputersCanvas = () => {
       </Suspense>
 
       <Preload all />
-    </canvas>
+    </Canvas>
   );
 };
 
-export default Computers;
+export default ComputersCanvas;
