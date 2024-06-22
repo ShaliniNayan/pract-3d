@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  ruby,
+  rails,
 } from '../assets';
 
 export const navLinks = [
@@ -112,6 +114,14 @@ const technologies = [
     name: 'docker',
     icon: docker,
   },
+  {
+    name: 'ruby',
+    icon: ruby,
+  },
+  {
+    name: 'rails',
+    icon: rails,
+  },
 ];
 
 const experiences = [
@@ -198,25 +208,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Leaderboard',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'This is a JavaScript project for a Leaderboard list app, which uses modern web development tools and techniques such as webpack and ES6 modules.',
     tags: [
       {
-        name: 'react',
+        name: 'HTML',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'CSS',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'Javascript',
         color: 'pink-text-gradient',
       },
     ],
     image: carrent,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/ShaliniNayan/Leaderboard',
   },
   {
     name: 'Job IT',
