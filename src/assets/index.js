@@ -29,7 +29,7 @@ import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
 
 import leaderboard from './leaderboard.png';
-import jobit from './jobit.png';
+import calculator from './calculator.png';
 import tripguide from './tripguide.png';
 
 export {
@@ -59,7 +59,7 @@ export {
   starbucks,
   tesla,
   leaderboard,
-  jobit,
+  calculator,
   tripguide,
   rails,
   ruby,
