@@ -21,7 +21,7 @@ import {
   shopify,
   leaderboard,
   calculator,
-  tripguide,
+  budget,
   threejs,
   ruby,
   rails,
@@ -250,25 +250,25 @@ const projects = [
     source_code_link: 'https://github.com/ShaliniNayan/math-magicians',
   },
   {
-    name: 'Trip Guide',
+    name: 'Budget App',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Budget-app is a mobile web application designed for efficient budget management with secure authentication, a PostgreSQL database, and comprehensive testing, this app ensures seamless and secure budget tracking.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'ruby',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'rails',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'postgresql',
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: budget,
+    source_code_link: 'https://github.com/ShaliniNayan/Budget-app-Shalini',
   },
 ];
 
