@@ -19,7 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  leaderboard,
   jobit,
   tripguide,
   threejs,
@@ -225,7 +225,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
+    image: leaderboard,
     source_code_link: 'https://github.com/ShaliniNayan/Leaderboard',
   },
   {
