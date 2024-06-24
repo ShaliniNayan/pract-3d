@@ -23,8 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
-  // ruby,
-  // rails,
+  ruby,
+  rails,
 } from '../assets';
 
 export const navLinks = [
@@ -114,14 +114,14 @@ const technologies = [
     name: 'docker',
     icon: docker,
   },
-  // {
-  //   name: 'ruby',
-  //   icon: ruby,
-  // },
-  // {
-  //   name: 'rails',
-  //   icon: rails,
-  // },
+  {
+    name: 'Ruby',
+    icon: ruby,
+  },
+  {
+    name: 'Rails',
+    icon: rails,
+  },
 ];
 
 const experiences = [
