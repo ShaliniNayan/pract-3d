@@ -30,7 +30,7 @@ import tesla from './company/tesla.png';
 
 import leaderboard from './leaderboard.png';
 import calculator from './calculator.png';
-import tripguide from './tripguide.png';
+import budget from './budget.png';
 
 export {
   logo,
@@ -60,7 +60,7 @@ export {
   tesla,
   leaderboard,
   calculator,
-  tripguide,
+  budget,
   rails,
   ruby,
 };
