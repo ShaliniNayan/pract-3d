@@ -20,7 +20,7 @@ import {
   tesla,
   shopify,
   leaderboard,
-  jobit,
+  calculator,
   tripguide,
   threejs,
   ruby,
@@ -229,25 +229,25 @@ const projects = [
     source_code_link: 'https://github.com/ShaliniNayan/Leaderboard',
   },
   {
-    name: 'Job IT',
+    name: 'Math Magician',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'This project is a calculator app called Math-Magician that allows users to perform simple arithmetic calculations. It was built using React, a popular JavaScript library for building user interfaces.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'HTML CSS',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'Javascript',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: calculator,
+    source_code_link: 'https://github.com/ShaliniNayan/math-magicians',
   },
   {
     name: 'Trip Guide',
