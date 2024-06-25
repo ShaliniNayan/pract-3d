@@ -210,7 +210,7 @@ const projects = [
   {
     name: 'Leaderboard',
     description:
-      'This is a JavaScript project for a Leaderboard list app, which uses modern web development tools and techniques such as webpack and ES6 modules.',
+      'This is a JavaScript project, tools and techniques such as webpack and ES6.',
     tags: [
       {
         name: 'HTML',
@@ -231,7 +231,7 @@ const projects = [
   {
     name: 'Math Magician',
     description:
-      'This project is a calculator app called Math-Magician that allows users to perform simple arithmetic calculations. It was built using React, a popular JavaScript library for building user interfaces.',
+      'This project is a built using React, a popular JavaScript library for building user interfaces.',
     tags: [
       {
         name: 'react',
@@ -252,7 +252,7 @@ const projects = [
   {
     name: 'Budget App',
     description:
-      'Budget-app is a mobile web application designed for efficient budget management with secure authentication, a PostgreSQL database, and comprehensive testing, this app ensures seamless and secure budget tracking.',
+      'A PostgreSQL database, and comprehensive testing, this app ensures seamless and secure budget tracking.',
     tags: [
       {
         name: 'ruby',
