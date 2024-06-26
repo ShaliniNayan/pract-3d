@@ -22,11 +22,9 @@ import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 import ruby from './tech/ruby.png';
 import rails from './tech/rails.png';
+import postgresql from './tech/postgresql.png';
 
-import meta from './company/meta.png';
-import shopify from './company/shopify.png';
-import starbucks from './company/starbucks.png';
-import tesla from './company/tesla.png';
+import microverse from './company/microverse.png';
 
 import leaderboard from './leaderboard.png';
 import calculator from './calculator.png';
@@ -54,13 +52,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   leaderboard,
   calculator,
   budget,
   rails,
   ruby,
+  microverse,
+  postgresql,
 };
