@@ -23,6 +23,7 @@ import threejs from './tech/threejs.svg';
 import ruby from './tech/ruby.png';
 import rails from './tech/rails.png';
 import postgresql from './tech/postgresql.png';
+import webpack from './tech/webpack.png';
 
 import microverse from './company/microverse.png';
 
@@ -59,4 +60,5 @@ export {
   ruby,
   microverse,
   postgresql,
+  webpack,
 };
