@@ -23,6 +23,7 @@ import {
   rails,
   microverse,
   postgresql,
+  webpack,
 } from '../assets';
 
 export const navLinks = [
@@ -123,6 +124,10 @@ const technologies = [
   {
     name: 'PostgreSQL',
     icon: postgresql,
+  },
+  {
+    name: 'Webpack',
+    icon: webpack,
   },
 ];
 
