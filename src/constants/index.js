@@ -15,16 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   leaderboard,
   calculator,
   budget,
   threejs,
   ruby,
   rails,
+  microverse,
+  postgresql,
 } from '../assets';
 
 export const navLinks = [
@@ -122,13 +120,17 @@ const technologies = [
     name: 'Rails',
     icon: rails,
   },
+  {
+    name: 'PostgreSQL',
+    icon: postgresql,
+  },
 ];
 
 const experiences = [
   {
     title: 'React.js Developer',
     company_name: 'Microverse',
-    icon: starbucks,
+    icon: microverse,
     iconBg: '#383E56',
     date: 'April 2023 - May 2023',
     points: [
@@ -141,7 +143,7 @@ const experiences = [
   {
     title: 'React Native Developer',
     company_name: 'Microverse',
-    icon: tesla,
+    icon: microverse,
     iconBg: '#E6DEDD',
     date: 'June 2023 - July 2022',
     points: [
@@ -154,7 +156,7 @@ const experiences = [
   {
     title: 'Web Developer',
     company_name: 'Microverse',
-    icon: shopify,
+    icon: microverse,
     iconBg: '#383E56',
     date: 'Aug 2023 - Sept 2023',
     points: [
@@ -167,7 +169,7 @@ const experiences = [
   {
     title: 'Full stack Developer',
     company_name: 'Microverse',
-    icon: meta,
+    icon: microverse,
     iconBg: '#E6DEDD',
     date: 'Oct 2023 - Present',
     points: [
