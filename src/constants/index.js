@@ -24,6 +24,7 @@ import {
   microverse,
   postgresql,
   webpack,
+  npm,
   rspec,
 } from '../assets';
 
