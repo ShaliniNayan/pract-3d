@@ -24,6 +24,7 @@ import {
   microverse,
   postgresql,
   webpack,
+  rspec,
 } from '../assets';
 
 export const navLinks = [
@@ -132,6 +133,10 @@ const technologies = [
   {
     name: 'Npm',
     icon: npm,
+  },
+  {
+    name: 'Rspec',
+    icon: rspec,
   },
 ];
 
