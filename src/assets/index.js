@@ -25,6 +25,7 @@ import rails from './tech/rails.png';
 import postgresql from './tech/postgresql.png';
 import webpack from './tech/webpack.png';
 import npm from './tech/npm.png';
+import rspec from './tech/rspec.png';
 
 import microverse from './company/microverse.png';
 
@@ -63,4 +64,5 @@ export {
   postgresql,
   webpack,
   npm,
+  rspec,
 };
