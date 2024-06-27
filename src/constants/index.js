@@ -129,6 +129,10 @@ const technologies = [
     name: 'Webpack',
     icon: webpack,
   },
+  {
+    name: 'Npm',
+    icon: npm,
+  },
 ];
 
 const experiences = [
