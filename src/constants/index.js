@@ -4,17 +4,17 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  // typescript,
   html,
   css,
   reactjs,
   redux,
   tailwind,
   nodejs,
-  mongodb,
+  // mongodb,
   git,
   figma,
-  docker,
+  // docker,
   leaderboard,
   calculator,
   budget,
@@ -24,8 +24,8 @@ import {
   microverse,
   postgresql,
   webpack,
-  npm,
-  rspec,
+  // npm,
+  // rspec,
 } from '../assets';
 
 export const navLinks = [
@@ -75,10 +75,10 @@ const technologies = [
     name: 'JavaScript',
     icon: javascript,
   },
-  {
-    name: 'TypeScript',
-    icon: typescript,
-  },
+  // {
+  //   name: 'TypeScript',
+  //   icon: typescript,
+  // },
   {
     name: 'React JS',
     icon: reactjs,
@@ -95,10 +95,10 @@ const technologies = [
     name: 'Node JS',
     icon: nodejs,
   },
-  {
-    name: 'MongoDB',
-    icon: mongodb,
-  },
+  // {
+  //   name: 'MongoDB',
+  //   icon: mongodb,
+  // },
   {
     name: 'Three JS',
     icon: threejs,
@@ -111,10 +111,10 @@ const technologies = [
     name: 'figma',
     icon: figma,
   },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+  // {
+  //   name: 'docker',
+  //   icon: docker,
+  // },
   {
     name: 'Ruby',
     icon: ruby,
@@ -131,14 +131,14 @@ const technologies = [
     name: 'Webpack',
     icon: webpack,
   },
-  {
-    name: 'Npm',
-    icon: npm,
-  },
-  {
-    name: 'Rspec',
-    icon: rspec,
-  },
+  // {
+  //   name: 'Npm',
+  //   icon: npm,
+  // },
+  // {
+  //   name: 'Rspec',
+  //   icon: rspec,
+  // },
 ];
 
 const experiences = [
