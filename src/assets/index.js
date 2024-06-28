@@ -8,24 +8,24 @@ import menu from './menu.svg';
 import close from './close.svg';
 
 import css from './tech/css.png';
-import docker from './tech/docker.png';
+// import docker from './tech/docker.png';
 import figma from './tech/figma.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
-import mongodb from './tech/mongodb.png';
+// import mongodb from './tech/mongodb.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
+// import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 import ruby from './tech/ruby.png';
 import rails from './tech/rails.png';
 import postgresql from './tech/postgresql.png';
 import webpack from './tech/webpack.png';
-import npm from './tech/npm.png';
-import rspec from './tech/rspec.png';
+// import npm from './tech/npm.png';
+// import rspec from './tech/rspec.png';
 
 import microverse from './company/microverse.png';
 
@@ -43,17 +43,17 @@ export {
   menu,
   close,
   css,
-  docker,
+  // docker,
   figma,
   git,
   html,
   javascript,
-  mongodb,
+  // mongodb,
   nodejs,
   reactjs,
   redux,
   tailwind,
-  typescript,
+  // typescript,
   threejs,
   leaderboard,
   calculator,
@@ -63,6 +63,6 @@ export {
   microverse,
   postgresql,
   webpack,
-  npm,
-  rspec,
+  // npm,
+  // rspec,
 };
