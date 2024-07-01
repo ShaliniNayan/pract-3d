@@ -13,7 +13,10 @@ const FeedbackCard = ({
   company,
   image,
 }) => (
-  <motion.div variants={fadeIn('', 'spring', index * 0.5, 0.75)}>
+  <motion.div
+    variants={fadeIn('', 'spring', index * 0.5, 0.75)}
+    className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
+  >
     <p>{testimonial}</p>
   </motion.div>
 );
