@@ -33,7 +33,7 @@ const Contact = () => {
     // template_v8zqzpo
     // service_r70kk2g
 
-    emailjs.send('service_r70kk2g');
+    emailjs.send('service_r70kk2g', 'template_v8zqzpo', '');
   };
 
   return (
