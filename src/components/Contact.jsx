@@ -7,10 +7,6 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
-// p0i1jd_OGLEE2M4g1
-// template_v8zqzpo
-// service_r70kk2g
-
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -29,7 +25,16 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    // p0i1jd_OGLEE2M4g1
+    // template_v8zqzpo
+    // service_r70kk2g
+
+    emailjs.send('service_r70kk2g');
+  };
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
