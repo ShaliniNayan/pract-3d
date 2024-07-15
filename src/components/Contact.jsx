@@ -34,7 +34,7 @@ const Contact = () => {
     // service_r70kk2g
 
     emailjs
-      .send(
+      .submit(
         'service_r70kk2g',
         'template_v8zqzpo',
         {
@@ -49,7 +49,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert('Thank you for your message! I will get back to you soon!');
+          alert('Thank you. I will get back to you as soon as possible.');
 
           setForm({
             name: '',
@@ -59,10 +59,9 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
+          console.error(error);
 
-          console.log(error);
-
-          alert('Something went wrong! Please try again later!');
+          alert('Ahh, something went wrong. Please try again.');
         }
       );
   };
@@ -119,7 +118,7 @@ const Contact = () => {
             type='submit'
             className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
           >
-            {loading ? 'Sending...' : 'Submit'}
+            {loading ? 'Sending...' : 'Send'}
           </button>
         </form>
       </motion.div>
