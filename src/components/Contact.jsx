@@ -33,18 +33,29 @@ const Contact = () => {
     // template_v8zqzpo
     // service_r70kk2g
 
-    emailjs.send(
-      'service_r70kk2g',
-      'template_v8zqzpo',
-      {
-        from_name: form.name,
-        to_name: 'Shaline',
-        from_email: form.email,
-        to_email: 'shalinenayan@gmail.com',
-        message: from.message,
-      },
-      p0i1jd_OGLEE2M4g1
-    );
+    emailjs
+      .send(
+        'service_r70kk2g',
+        'template_v8zqzpo',
+        {
+          from_name: form.name,
+          to_name: 'Shaline',
+          from_email: form.email,
+          to_email: 'shalinenayan@gmail.com',
+          message: from.message,
+        },
+        p0i1jd_OGLEE2M4g1
+      )
+      .then(() => {
+        setLoading(false);
+        alert('Thank you for your message! I will get back to you soon!');
+
+        setForm({
+          name: '',
+          email: '',
+          message: '',
+        });
+      });
   };
 
   return (
