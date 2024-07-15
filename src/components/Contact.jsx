@@ -46,16 +46,25 @@ const Contact = () => {
         },
         p0i1jd_OGLEE2M4g1
       )
-      .then(() => {
-        setLoading(false);
-        alert('Thank you for your message! I will get back to you soon!');
+      .then(
+        () => {
+          setLoading(false);
+          alert('Thank you for your message! I will get back to you soon!');
 
-        setForm({
-          name: '',
-          email: '',
-          message: '',
-        });
-      });
+          setForm({
+            name: '',
+            email: '',
+            message: '',
+          });
+        },
+        (error) => {
+          setLoading(false);
+
+          console.log(error);
+
+          alert('Something went wrong! Please try again later!');
+        }
+      );
   };
 
   return (
