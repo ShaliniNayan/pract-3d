@@ -33,7 +33,18 @@ const Contact = () => {
     // template_v8zqzpo
     // service_r70kk2g
 
-    emailjs.send('service_r70kk2g', 'template_v8zqzpo', '');
+    emailjs.send(
+      'service_r70kk2g',
+      'template_v8zqzpo',
+      {
+        from_name: form.name,
+        to_name: 'Shaline',
+        from_email: form.email,
+        to_email: 'shalinenayan@gmail.com',
+        message: from.message,
+      },
+      p0i1jd_OGLEE2M4g1
+    );
   };
 
   return (
